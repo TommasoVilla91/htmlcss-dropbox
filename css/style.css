@@ -36,6 +36,13 @@ img {
     min-height: 400px;
 }
 
+.sc {
+    width: 60%;
+    
+    /* debug */
+    min-height: 900px;
+}
+
 ul {
     list-style: none;
 }
@@ -69,6 +76,8 @@ ul {
 }
 
 .main-title {
+
+
      /* debug */
      min-height: 100px;
      background-color: lightskyblue;
@@ -97,5 +106,76 @@ ul {
     /* debug */
     border: 1px solid black;
     background-color:lightcoral
+}
+
+
+/* 3 columns section */
+.three-col {
+    padding-top: 30px;
+}
+
+.sc h2, form {
+
+    /* debug */
+    border: 1px solid black;
+    min-height: 50px;
+    
+    /* debug */
+    background-color: lightslategray;
+}
+
+.sc .row {
+    display: flex;
+    justify-content: space-between;
+    row-gap: 10px;
+    padding-top: 20px;
+}
+
+.col {
+    width: calc((100% - 60px) / 3);
+
+    /* debug */
+    border: 1px solid black;
+    min-height: 600px;
+    background-color: bisque;
+}
+
+.card {
+    
+}
+
+.ct {
+    width: 100%;
+
+    /* debug */
+    border: 1px solid black;
+    min-height: 30px;
+    background-color: lightcyan;
+}
+
+.cb {
+
+    /* debug */
+    border: 1px solid black;
+    min-height: 500px;
+    background-color: lightsalmon;
+}
+
+/* team section */
+.team {
+    margin-top: 30px;
+
+    /* debug */
+    border: 1px solid black;
+    min-height: 200px;
+    background-color:lightcoral;    
+}
+
+.team-body {
+
+    /* debug */
+    border: 1px solid black;
+    min-height: 200px;
+    background-color: lightsalmon;
 }
 
