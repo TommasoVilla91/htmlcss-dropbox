@@ -30,7 +30,7 @@ img {
 }
 
 .bc {
-    width: 70%;
+    width: 70%;    
 
     /* debug */
     min-height: 400px;
@@ -67,3 +67,35 @@ ul {
     background-color: #b4d0e6;
     padding-top: 50px;
 }
+
+.main-title {
+     /* debug */
+     min-height: 100px;
+     background-color: lightskyblue;
+}
+
+.bc .row {
+    display: flex;
+    justify-content: space-between;
+
+    /* debug */
+    min-height: 400px;
+}
+
+.text-hero {
+    width: 30%;
+    text-align: left;
+
+    /* debug */
+    border: 1px solid black;
+    background-color: lightpink
+}
+
+.img-hero {
+    width: 70%;
+
+    /* debug */
+    border: 1px solid black;
+    background-color:lightcoral
+}
+
