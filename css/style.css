@@ -230,6 +230,7 @@ ul {
     /* debug */
     border: 1px solid black;
     min-height: 200px;
+    background-color: beige;
 }
 
 /* .six-col .h2 {
@@ -244,3 +245,33 @@ ul {
     background-color: lightgreen;
     min-height: 100px;
 }
+
+/* FOOTER */
+footer {
+    background-color: #000000;
+    color: white;
+    text-align: left;
+}
+
+footer .container {
+    padding-top: 100px;
+    
+}
+
+.bc .row {
+    display: flex;
+
+}
+
+.list {
+
+    /* debug */
+    border: 1px solid white;
+    max-height: 250px;
+}
+
+.bc .line {
+    color: white;
+    width: 100px;
+}
+
