@@ -21,10 +21,6 @@ ul {
 .container {
     max-width: 1600px;
     margin: 0 auto;
-
-    /* debug */
-    border: 1px solid black;
-    min-height: 60px;
 }
 
 .hc {
@@ -35,22 +31,18 @@ ul {
 
 .bc {
     width: 50%;
-    
-    /* debug */
-    min-height: 400px;
+  
 }
 
 .sc {
     width: 40%;
-    
-    /* debug */
-    min-height: 900px;
+    min-height: 100px;
+
 }
 
 .bnt {
     display: inline-block;
     text-align: center;
-    max-width: 100%;
     color: white;
     background-color: #0061fe;
     text-decoration: none;
@@ -154,10 +146,7 @@ form span {
 
 .col {
     width: calc((100% - 60px) / 3);
-
-    /* debug */
     border: 1px solid lightslategray;
-    min-height: 600px;
 }
 
 .card ul li {
@@ -230,10 +219,7 @@ form span {
 /* team section */
 .team {
     margin-top: 30px;
-
-    /* debug */
-    border: 1px solid lightslategray;
-        
+    border: 1px solid lightslategray;     
 }
 
 .team-body {
@@ -241,7 +227,9 @@ form span {
     justify-content: space-between;
     flex-direction: column;
     padding: 20px;
-    min-height: 200px;  
+    min-height: 200px;
+    border: 1px solid lightslategray;
+    border-top: white; 
 }
 
 .col-top {
@@ -267,30 +255,37 @@ form span {
 
 /* partner section */
 .partner {
+    margin-top: 100px;
+}
+
+.partner .sc{
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
-
-    /* debug */
-    border: 1px solid black;
-    min-height: 350px;
-    background-color: lightcyan
+    gap: 30px;
 }
 
 .p-img {
-    width: 60%;
+    min-width: 60%;
+}
 
-    /* debug */
-    border: 1px solid black;
-    background-color: aquamarine;
+.p-text .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 20px;
+    
 }
 
 .p.text {
-    width: 40%;
-    text-align: left;
 
-    /* debug */
+}
+
+.p-text .row .bnt {
+    background-color: white;
+    color: #000000;
     border: 1px solid black;
+    padding: 15px;    
 }
 
 
@@ -298,26 +293,21 @@ form span {
 .six-col {
     margin-top: 100px;
     
-
-    /* debug */
-    border: 1px solid black;
-    min-height: 500px;
 }
 
 .six-col .row {
     display: flex;
     justify-content: space-between;
-    row-gap: 10px;
+    row-gap: 20px;
     flex-wrap: wrap;
 }
 
 .col-opt {
     width: calc(95% / 3);
+}
 
-    /* debug */
-    border: 1px solid black;
-    min-height: 200px;
-    background-color: beige;
+.col-opt h3 {
+    margin-bottom: 20px;
 }
 
 /* .six-col .h2 {
@@ -327,10 +317,14 @@ form span {
 .bottom {
     margin-top: 100px;
     margin-bottom: 100px;
+}
 
-    /* debug */
-    background-color: lightgreen;
-    min-height: 100px;
+.bottom h2 {
+    margin-bottom: 50px;
+}
+
+.customers {
+    color: blue;
 }
 
 /* FOOTER */
@@ -345,23 +339,40 @@ footer .container {
     
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
 footer .bc .row {
     margin: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    row-gap: 20px;
 }
 
 .col-20 {
 
     /* debug */
-    border: 1px solid white;
     max-height: 250px;
+}
+
+.f-list li {
+    padding-bottom: 20px;
+}
+
+.f-list li:nth-child(1) {
+    padding-bottom: 30px;
 }
 
 .bc .line {
     color: white;
     width: 100px;
+    margin-top:  70px;
 }
 
 .lenguage {
     margin: 20px 20px;
+    
 }
 
