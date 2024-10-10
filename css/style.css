@@ -128,6 +128,10 @@ ul {
     margin-top: 30px;
 }
 
+.plans h3 {
+    font-size: 1.5rem;
+}
+
 .sc h2 {
     font-size: 2.5rem;
 }
@@ -228,17 +232,37 @@ form span {
     margin-top: 30px;
 
     /* debug */
-    border: 1px solid black;
-    min-height: 200px;
-    background-color:lightcoral;    
+    border: 1px solid lightslategray;
+        
 }
 
 .team-body {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 200px;  
+}
 
-    /* debug */
-    border: 1px solid black;
-    min-height: 200px;
-    background-color: lightsalmon;
+.col-top {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.col-top h3 {
+    margin-bottom: 10px;
+}
+
+.col-top .bnt {
+    padding: 20px 30px;
+}
+
+.col-bottom {
+    padding: 10px;
+    width: 70%;
 }
 
 /* partner section */
