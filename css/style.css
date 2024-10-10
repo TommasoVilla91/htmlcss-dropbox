@@ -53,6 +53,7 @@ ul {
     max-width: 100%;
     color: white;
     background-color: #0061fe;
+    text-decoration: none;
 }
 
 
@@ -124,55 +125,103 @@ ul {
 
 /* 3 columns section */
 .plans {
-    padding-top: 30px;
+    margin-top: 30px;
 }
 
-.sc h2, form {
+.sc h2 {
+    font-size: 2.5rem;
+}
 
-    /* debug */
-    border: 1px solid black;
-    min-height: 50px;
-    
-    /* debug */
-    background-color: lightslategray;
+form {
+    margin-top: 40px;
+}
+
+form span {
+    padding-right: 30px;
 }
 
 .sc .row {
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
     row-gap: 10px;
-    padding-top: 20px;
+    margin-top: 40px;
 }
 
 .col {
     width: calc((100% - 60px) / 3);
 
     /* debug */
-    border: 1px solid black;
+    border: 1px solid lightslategray;
     min-height: 600px;
-    background-color: bisque;
 }
 
-.card {
-    
+.card ul li {
+    padding-bottom: 20px;
 }
 
 .ct {
     width: 100%;
-
-    /* debug */
-    border: 1px solid black;
-    min-height: 30px;
-    background-color: lightcyan;
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid lightslategray;   
 }
 
 .cb {
+    padding: 20px;
 
     /* debug */
-    border: 1px solid black;
     min-height: 500px;
-    background-color: lightsalmon;
 }
+
+.cb li {
+    display: flex;
+    gap: 5px;
+}
+
+.title-list {
+    margin-bottom: 40px;
+}
+
+.title-list li:nth-last-child(1) {
+    color: lightslategray;
+}
+
+.desc-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.prova {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.cb .bnt {
+    padding: 15px 20px;
+}
+
+.prova p a {
+    color: blue;
+}
+
+.cb hr {
+    width: 20%;
+    color: #d0cfd4;
+    margin-bottom: 40px;
+}
+
+.overview-list {
+    margin-top: 30px;
+}
+
+.fa-check {
+    color: #0062fe;
+}
+
 
 /* team section */
 .team {
